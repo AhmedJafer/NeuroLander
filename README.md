@@ -2,12 +2,13 @@
 
 
 # Table of Contents
-- [Project Overview](#ProjectOverview)
-- [Data Collection](#DataCollection)
-- [Data Pre-Processing](#DataPre-Processing)
-- [Network Architecture](#NetworkArchitecture)
-- [Hyperparameter Tuning](#HyperparameterTuning)
+- [Project Overview](#Project-Overview)
+- [Data Collection](#Data-Collection)
+- [Data Pre-Processing](#Data-Pre-Processing)
+- [Network Architecture](#Network-Architecture)
+- [Hyperparameter Tuning](#Hyperparameter-Tuning)
 - [Results](#Results)
+- [How to Run the Code](#How-to-Run-the-Code)
 
 # Project Overview
 The primary goal of this project is to design and implement a neural network from scratch, utilizing only **NumPy**,
@@ -104,4 +105,36 @@ To optimize the neural network's performance, we conducted a hyperparameter tuni
 
 
 ![Linkedin](https://github.com/user-attachments/assets/fe5c6010-a7fb-4ebe-9398-a8ffcc01a4e6)
+
+# How to Run It
+
+To run the project, follow these steps:
+
+1. **Run Data Processing:**
+
+   - Open and execute the `Data_Preprocessing.ipynb` Jupyter notebook. This notebook handles the data preparation tasks necessary for training the neural network.
+
+2. **Train the Network:**
+
+   - Open the `NN_scratch.py` script.
+   - Locate the last few lines of the script, which is currently commented out.
+   - Uncomment these lines to enable training of the neural network.
+   - Run the script to start the training process:
+     ```bash
+     python NN_scratch.py
+     ```
+   - This will train the model and save the weights and biases.
+
+3. **Verify Paths:**
+
+   - Check and ensure the paths for saving and loading weights and biases are correctly set in the `NeuralNetHolder.py` script.
+   - Update the paths if necessary to match your directory structure.
+
+4. **Run the Game:**
+
+   - Execute the game to test the trained model. Follow any additional instructions provided in the game script or README to ensure proper setup.
+
+### Note
+
+The data used in this project may not work on your system as it is dependent on screen dimensions. You will need to collect your own data.
 
