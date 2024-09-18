@@ -1,7 +1,7 @@
 # Main Runnable file for the CE889 Assignment
 # Project built by Lewis Veryard and Hugo Leon-Garza
 from GameLoop import GameLoop
-
+from NN_scratch import Sequential ,Dense , Sigmoid_Activation_Function ,loss_error ,SGD_optimizer
 
 def importConfigFile():
     keys = []
